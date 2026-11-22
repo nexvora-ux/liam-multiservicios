@@ -71,3 +71,42 @@ footer img{background:#fff;border-radius:50%;mix-blend-mode:normal;width:92px;he
   .footer-actions .quick-action strong{font-size:10px;line-height:1.15}
   .footer-actions .quick-action small{font-size:9px;line-height:1.15}
 }
+
+/* POR QUÉ ELEGIRNOS: 3 COLUMNAS SOLO EN MÓVILES */
+@media (max-width: 600px) {
+
+  #servicios .benefits {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 7px;
+    overflow: visible;
+    padding: 0;
+    margin: 0;
+    scroll-snap-type: none;
+  }
+
+  #servicios .benefits article {
+    min-width: 0;
+    min-height: 150px;
+    padding: 14px 7px;
+    text-align: center;
+    border-radius: 12px;
+  }
+
+  #servicios .benefits strong {
+    font-size: 28px;
+  }
+
+  #servicios .benefits h3 {
+    font-size: 11px;
+    line-height: 1.3;
+    margin: 9px 0;
+  }
+
+  #servicios .benefits p {
+    font-size: 10px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+
+}
