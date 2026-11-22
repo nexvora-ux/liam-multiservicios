@@ -1,0 +1,16 @@
+{
+  "id": "./",
+  "name": "LIAM MULTISERVICIOS",
+  "short_name": "LIAM",
+  "description": "Portones automáticos, estructuras metálicas y acero inoxidable.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#061B3B",
+  "theme_color": "#061B3B",
+  "lang": "es-PE",
+  "icons": [
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
